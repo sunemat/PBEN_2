@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacific Biomedical Engineering Network (PBEN)</title>
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Syne (headings) & Inter (body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <script>
@@ -102,11 +99,9 @@
 
 <body class="sand-to-ocean-grad text-slate-800 font-sans antialiased overflow-x-hidden">
 
-    <!-- Floating Responsive Header with authentic logo -->
     <header class="sticky top-0 z-50 transition-all duration-300 backdrop-blur-md bg-sand-100/90 border-b border-pacific-200/50 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
             
-            <!-- Logo Branding Section -->
             <a href="#home" class="flex items-center space-x-3 group shrink-0">
                 <div class="relative bg-white/80 rounded-xl p-1 border border-pacific-300/40 transition-all duration-300 group-hover:border-pacific-400 shadow-sm">
                     <img src="https://github.com/sunemat/PBEN/blob/main/PBEN%20Logo_4K%20Size%20Original%20Dark%20Blue%20Background_72resolution_WEB.png?raw=true" 
@@ -122,7 +117,6 @@
                 </div>
             </a>
 
-            <!-- Navigation Links -->
             <nav class="hidden lg:flex items-center space-x-2 lg:space-x-4 text-sm font-semibold text-slate-700">
                 <a href="#about" class="px-3.5 py-2 rounded-xl hover:text-pacific-600 hover:bg-pacific-100/50 transition-all">About PBEN</a>
                 <a href="#strategic" class="px-3.5 py-2 rounded-xl hover:text-pacific-600 hover:bg-pacific-100/50 transition-all">Strategic Plan</a>
@@ -133,13 +127,11 @@
                 </a>
             </nav>
 
-            <!-- Mobile Menu Toggle Button -->
             <button onclick="toggleMobileMenu()" class="lg:hidden p-2 text-pacific-800 hover:bg-pacific-100 rounded-lg">
                 <i id="menuIcon" class="fa-solid fa-bars text-xl"></i>
             </button>
         </div>
 
-        <!-- Mobile Drawer Navigation -->
         <div id="mobileMenu" class="hidden lg:hidden bg-sand-100/95 border-b border-pacific-200/60 p-4 space-y-2 font-medium text-slate-700">
             <a href="#about" onclick="toggleMobileMenu()" class="block px-4 py-2 rounded-lg hover:bg-pacific-100">About PBEN</a>
             <a href="#strategic" onclick="toggleMobileMenu()" class="block px-4 py-2 rounded-lg hover:bg-pacific-100">Strategic Plan</a>
@@ -149,10 +141,8 @@
         </div>
     </header>
 
-    <!-- Hero / Intro Banner -->
     <section id="home" class="relative overflow-hidden pt-8 pb-16 md:py-24">
         
-        <!-- Abstract wave visuals in background -->
         <div class="absolute inset-0 opacity-10 pointer-events-none">
             <svg class="w-full h-full text-pacific-400" fill="currentColor" viewBox="0 0 1440 320" preserveAspectRatio="none">
                 <path d="M0,192L48,197.3C96,203,192,213,288,202.7C384,192,480,160,576,149.3C672,139,768,149,864,170.7C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
@@ -162,8 +152,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 
-                <!-- Welcome Core Slogan Card -->
-                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                <div class="lg:col-span-12 text-center lg:text-left space-y-6">
                     <div class="inline-flex items-center space-x-2 bg-pacific-100 border border-pacific-300 text-pacific-700 px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase shadow-sm">
                         <i class="fa-solid fa-heart-pulse text-accentGreen animate-pulse"></i>
                         <span>Bridging Health & Clinical Technology</span>
@@ -180,7 +169,6 @@
                         Operating gracefully under the Directors of Clinical Services (DCS) and Pacific Heads of Health (HoH). We provide a unified Pacific platform to expand local ownership, training, and robust life-cycle clinical equipment management.
                     </p>
 
-                    <!-- Interactive Clinical UI Monitor Card (Aesthetic element) -->
                     <div class="bg-white/80 border border-pacific-200 rounded-2xl p-4 shadow-sm inline-flex items-center gap-6 max-w-md w-full justify-around mx-auto lg:mx-0">
                         <div class="text-center">
                             <span class="text-xs font-bold text-slate-400 block uppercase">Regional Uptime</span>
@@ -210,73 +198,14 @@
                     </div>
                 </div>
 
-                <!-- Decorative Concept Medical Device Visualization -->
-                <div class="lg:col-span-5 relative">
-                    <div class="relative mx-auto max-w-[360px] sm:max-w-[420px]">
-                        
-                        <!-- Soft glowing orb representing deep sea life -->
-                        <div class="absolute inset-0 bg-gradient-to-tr from-pacific-300/30 to-sand-300/40 rounded-full filter blur-3xl opacity-80"></div>
-
-                        <!-- Main visual medical equipment card design -->
-                        <div class="relative bg-white/90 border border-pacific-200 rounded-3xl p-5 shadow-xl overflow-hidden">
-                            
-                            <!-- Polynesian pattern overlay inside visualization card -->
-                            <div class="absolute bottom-0 right-0 opacity-10 pointer-events-none">
-                                <svg class="w-40 h-40 text-pacific-600" fill="currentColor" viewBox="0 0 100 100">
-                                    <polygon points="50,0 100,50 50,100 0,50" />
-                                    <polygon points="50,15 85,50 50,85 15,50" opacity="0.5"/>
-                                </svg>
-                            </div>
-
-                            <div class="flex justify-between items-start mb-4 border-b border-pacific-100 pb-3">
-                                <div>
-                                    <h4 class="text-xs uppercase font-extrabold text-pacific-500 tracking-wider">Clinical Telemetry Model</h4>
-                                    <h3 class="font-heading text-lg font-bold text-slate-800">Biomedical Asset Calibrator</h3>
-                                </div>
-                                <span class="bg-pacific-100 text-pacific-700 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-widest border border-pacific-300">
-                                    Safe Compliance
-                                </span>
-                            </div>
-
-                            <!-- Styled clinical signal wave simulation representing biomedical heart & pulse metrics -->
-                            <div class="bg-slate-900 rounded-2xl p-4 shadow-inner relative overflow-hidden mb-4">
-                                <div class="flex justify-between items-center text-[10px] text-slate-400 mb-2">
-                                    <span class="flex items-center gap-1">
-                                        <span class="h-1.5 w-1.5 rounded-full bg-accentGreen animate-ping"></span> Clinical Standard V2
-                                    </span>
-                                    <span>Signal Quality: 100%</span>
-                                </div>
-                                <svg class="w-full h-16 text-pacific-300" viewBox="0 0 400 100" fill="none" stroke="currentColor" stroke-width="2.5">
-                                    <path d="M0,50 L80,50 L95,20 L110,80 L125,50 L200,50 L210,10 L225,90 L240,50 L320,50 L330,40 L340,60 L350,50 L400,50" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-
-                            <!-- Diagnostic equipment indicators -->
-                            <div class="space-y-3">
-                                <div class="flex items-center justify-between text-xs bg-sand-100 p-2.5 rounded-xl border border-sand-200">
-                                    <span class="font-semibold text-slate-600"><i class="fa-solid fa-gauge mr-2 text-pacific-500"></i>Calibration Check</span>
-                                    <span class="text-accentGreen font-bold uppercase"><i class="fa-regular fa-circle-check"></i> Passed</span>
-                                </div>
-                                <div class="flex items-center justify-between text-xs bg-sand-100 p-2.5 rounded-xl border border-sand-200">
-                                    <span class="font-semibold text-slate-600"><i class="fa-solid fa-microchip mr-2 text-pacific-500"></i>Equipment Database Link</span>
-                                    <span class="text-pacific-600 font-bold uppercase">Ready</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
-        <!-- Wave Triangle Spearhead Border Transition to sand -->
         <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-10">
             <div class="tribal-divider-sand w-full h-3"></div>
         </div>
     </section>
 
-    <!-- About the PBEN Section -->
     <section id="about" class="py-16 md:py-24 poly-wave-pattern">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
@@ -292,11 +221,9 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
                 
-                <!-- Detailed Context Info (Clean cards resembling ocean colors) -->
                 <div class="lg:col-span-7 space-y-6">
                     <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-pacific-100 relative overflow-hidden">
                         
-                        <!-- Polynesian geometric motif background element -->
                         <div class="absolute top-0 right-0 w-24 h-24 opacity-5 pointer-events-none">
                             <i class="fa-solid fa-dharmachakra text-8xl text-polyOrange"></i>
                         </div>
@@ -320,7 +247,6 @@
                         </div>
                     </div>
 
-                    <!-- SPC & UN SDG Global Alignments -->
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div class="bg-white border-l-4 border-pacific-400 rounded-xl p-4 shadow-sm hover:shadow transition-shadow">
                             <span class="text-[10px] uppercase font-extrabold tracking-wider text-pacific-600 block mb-1">SPC Strategic Plan</span>
@@ -340,7 +266,6 @@
                     </div>
                 </div>
 
-                <!-- Strategic Core Directives (Vision, Mission, Goal) -->
                 <div class="lg:col-span-5 space-y-4">
                     <div class="bg-pacific-50 border border-pacific-200 rounded-2xl p-6 shadow-sm hover:scale-[1.01] transition-transform">
                         <div class="flex items-center gap-3 mb-2">
@@ -375,12 +300,10 @@
 
             </div>
 
-            <!-- Polynesian Tribal Value Cards Grid (Aroha, Unity, Excellence, Innovation) -->
             <div class="mt-16">
                 <h3 class="font-heading text-xl font-bold text-center text-pacific-800 mb-8 uppercase tracking-widest"><i class="fa-solid fa-shield-heart mr-2 text-polyOrange"></i>Our Core Values</h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     
-                    <!-- Value: Aroha -->
                     <div class="bg-white border border-pacific-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden group">
                         <div class="absolute -right-3 -bottom-3 opacity-5 group-hover:scale-110 transition-transform text-7xl text-pacific-400"><i class="fa-solid fa-heart"></i></div>
                         <div class="flex items-center gap-3 mb-2">
@@ -392,7 +315,6 @@
                         </p>
                     </div>
 
-                    <!-- Value: Unity -->
                     <div class="bg-white border border-pacific-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden group">
                         <div class="absolute -right-3 -bottom-3 opacity-5 group-hover:scale-110 transition-transform text-7xl text-pacific-400"><i class="fa-solid fa-people-group"></i></div>
                         <div class="flex items-center gap-3 mb-2">
@@ -404,7 +326,6 @@
                         </p>
                     </div>
 
-                    <!-- Value: Excellence -->
                     <div class="bg-white border border-pacific-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden group">
                         <div class="absolute -right-3 -bottom-3 opacity-5 group-hover:scale-110 transition-transform text-7xl text-pacific-400"><i class="fa-solid fa-medal"></i></div>
                         <div class="flex items-center gap-3 mb-2">
@@ -416,7 +337,6 @@
                         </p>
                     </div>
 
-                    <!-- Value: Innovation -->
                     <div class="bg-white border border-pacific-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden group">
                         <div class="absolute -right-3 -bottom-3 opacity-5 group-hover:scale-110 transition-transform text-7xl text-pacific-400"><i class="fa-solid fa-microchip"></i></div>
                         <div class="flex items-center gap-3 mb-2">
@@ -434,7 +354,7 @@
         </div>
     </section>
 
-    <!-- Strategic Plan Roadmap Section -->
+   <!-- Strategic Plan Roadmap Section -->
     <section id="strategic" class="py-16 md:py-24 bg-gradient-to-b from-pacific-50 via-pacific-100 to-pacific-200 relative">
         
         <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-10">
@@ -738,18 +658,18 @@
                                 <span class="text-slate-700 font-medium flex items-center gap-2">
                                     <i class="fa-regular fa-file-pdf text-red-500 text-base shrink-0"></i> Approved Meeting Report
                                 </span>
-                                <button onclick="triggerFilePlaceholder('5th PBEN Approved Meeting Report')" class="text-[10px] px-3.5 py-2 bg-pacific-100 hover:bg-pacific-500 text-pacific-700 hover:text-white font-bold rounded-lg transition-colors uppercase tracking-wider shadow-sm border border-pacific-200">
-                                    <i class="fa-solid fa-download mr-1"></i> Download File
-                                </button>
+                                <a href="./Approved%205th%20Pacific%20Biomedical%20Engineering%20Network%20Meeting%20Report%202023.pdf" target="_blank" rel="noopener noreferrer" class="text-[10px] px-3.5 py-2 bg-pacific-100 hover:bg-pacific-500 text-pacific-700 hover:text-white font-bold rounded-lg transition-colors uppercase tracking-wider shadow-sm border border-pacific-200 inline-flex items-center justify-center">
+                                    <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> Open PDF
+                                </a>
                             </div>
 
                             <div class="flex flex-col sm:flex-row sm:items-center justify-between p-2.5 hover:bg-sand-100 rounded-xl text-xs sm:text-sm gap-2 transition-colors border border-transparent hover:border-pacific-200">
                                 <span class="text-slate-700 font-medium flex items-center gap-2">
-                                    <i class="fa-regular fa-file-excel text-emerald-600 text-base shrink-0"></i> PBEN Situational Analysis Questionnaire
+                                    <i class="fa-regular fa-file-pdf text-red-500 text-base shrink-0"></i> PBEN Situational Analysis Questionnaire
                                 </span>
-                                <button onclick="triggerFilePlaceholder('PBEN Situational Analysis Questionnaire')" class="text-[10px] px-3.5 py-2 bg-pacific-100 hover:bg-pacific-500 text-pacific-700 hover:text-white font-bold rounded-lg transition-colors uppercase tracking-wider shadow-sm border border-pacific-200">
-                                    <i class="fa-solid fa-download mr-1"></i> Download Sheet
-                                </button>
+                                <a href="./Biomedical%20Situational%20Analysis%20Questionnaire-Final.pdf" target="_blank" rel="noopener noreferrer" class="text-[10px] px-3.5 py-2 bg-pacific-100 hover:bg-pacific-500 text-pacific-700 hover:text-white font-bold rounded-lg transition-colors uppercase tracking-wider shadow-sm border border-pacific-200 inline-flex items-center justify-center">
+                                    <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> Open PDF
+                                </a>
                             </div>
 
                             <div class="flex flex-col sm:flex-row sm:items-center justify-between p-2.5 hover:bg-sand-100 rounded-xl text-xs sm:text-sm gap-2 transition-colors border border-transparent hover:border-pacific-200">
@@ -1073,4 +993,4 @@
         }
     </script>
 </body>
-</html>
+</html> 
